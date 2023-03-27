@@ -1,9 +1,21 @@
 {
   "inputs": [
     {
-      "key": "tags",
-      "title": "Tags",
-      "description": "The possible tags, separated by commas",
+      "key": "name",
+      "title": "Product Name",
+      "description": "The name of your product",
+      "type": "string"
+    },
+    {
+      "key": "tagline",
+      "title": "Product Tagline",
+      "description": "The tagline of your product",
+      "type": "string"
+    },
+    {
+      "key": "description",
+      "title": "Product Description",
+      "description": "The description of your product",
       "type": "string"
     },
     {
