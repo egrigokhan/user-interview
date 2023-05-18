@@ -11,6 +11,8 @@ from langchain.schema import AIMessage, HumanMessage, SystemMessage
 
 chat = ChatOpenAI(temperature=0)
 
+def approve(type, request):
+    return "Error approving."
 
 def run(message, history):
 
