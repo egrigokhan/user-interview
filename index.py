@@ -41,6 +41,9 @@ def run(message, history):
     res = chat(messages)
 
     return res.content
+  
+def cron():
+    pass
 
 
 def setup(config):
