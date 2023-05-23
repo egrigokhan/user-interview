@@ -25,5 +25,6 @@
       "type": "string",
       "secure": true
     }
-  ]
+  ],
+  "analysis": "The following is a user interview about a product called .... Parse it as a table with the following columns in order: user_job (text | NA), users_pain_points (list | NA), previous_solutions_used (list | None | NA), user_interested_in_product (Yes | No | NA)"
 }
